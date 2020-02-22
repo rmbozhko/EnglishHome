@@ -1600,13 +1600,13 @@
 		}, this));
 	};
 
-	/**
-	 * Gets unified pointer coordinates from event.
-	 * @todo #261
-	 * @protected
-	 * @param {Event} - The `mousedown` or `touchstart` event.
-	 * @returns {Object} - Contains `x` and `y` coordinates of current pointer position.
-	 */
+	// *
+	//  * Gets unified pointer coordinates from event.
+	//  * @todo #261
+	//  * @protected
+	//  * @param {Event} - The `mousedown` or `touchstart` event.
+	//  * @returns {Object} - Contains `x` and `y` coordinates of current pointer position.
+	 
 	Owl.prototype.pointer = function(event) {
 		var result = { x: null, y: null };
 
