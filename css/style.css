@@ -641,8 +641,8 @@ h1, h2, h3, h4, h5,
         padding-right: 0; }
 
 .main-content {
-  float: left;
-  width: calc(100% - 250px); }
+  /*float: left;*/
+  /*width: calc(100% - 250px);*/ }
   @media (max-width: 991.98px) {
     .main-content {
       width: 100%;
@@ -652,11 +652,14 @@ h1, h2, h3, h4, h5,
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
-    padding-right: 0; }
+    padding-right: 0;
+    padding-top: 150px;
+    }
     @media (max-width: 991.98px) {
       .main-content .container-fluid {
         padding-left: 15px;
-        padding-right: 15px; } }
+        padding-right: 15px;
+        padding-top: 70px; } }
   .main-content .photos .photo-item {
     position: relative; }
     .main-content .photos .photo-item:after {
